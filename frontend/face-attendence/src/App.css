@@ -1,0 +1,19 @@
+.formGridWrapper {
+    height: 91vh;
+}
+.formGrid {
+    display: grid !important;
+    grid-template-columns: auto;
+    padding-top: 2rem;
+    row-gap: 1rem;
+    justify-items: center;
+}
+.formGrid > div {
+    width: 20%;
+}
+.formGrid > div > div {
+    width: 100%;
+}
+h1, h2, h3 {
+    color: white;
+}

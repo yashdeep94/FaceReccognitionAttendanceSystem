@@ -1,0 +1,6 @@
+django
+django-cors-headers
+pyjwt
+mysqlclient
+requests
+opencv-contrib-python

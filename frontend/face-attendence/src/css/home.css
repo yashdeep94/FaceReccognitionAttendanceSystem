@@ -1,0 +1,7 @@
+#AdminGrid {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    row-gap: 1rem;
+    justify-items: center;
+}

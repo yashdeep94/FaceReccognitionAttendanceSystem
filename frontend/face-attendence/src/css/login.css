@@ -1,0 +1,37 @@
+#buttonGrid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: var(--normalBackground);
+    align-content: center;
+    row-gap: 0.5rem;
+    justify-content: center;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+#mainGrid {
+    height: 75vh;
+    padding: 8vh 50vh;
+}
+.loginButton {
+    width: 200px;
+}
+#loginGrid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 100%;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+}
+#loginGrid > div:last-child {
+    background-color: var(--secondaryPurple);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: none;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+#loginGrid > div:last-child > img {
+    height: 20rem;
+    width: auto;
+}
