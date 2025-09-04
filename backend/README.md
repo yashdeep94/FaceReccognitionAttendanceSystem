@@ -45,7 +45,7 @@ backend/
 ### 2. Clone the Repository
 
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/yashdeep94/FaceReccognitionAttendanceSystem
 cd backend
 ```
 
